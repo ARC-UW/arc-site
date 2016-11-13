@@ -1,1 +1,2 @@
-# arc-site
+# ARC UW
+Website for ARC-UW

@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto' , sans-serif;
+  line-height: 1.8;
+  color: #000;
+  text-align: center; }
+
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px; }
+  .navbar .navbar-nav li a:hover, .navbar .navbar-brand {
+    color: #aaa !important; }
+
+.jumbotron {
+  background: url("../assets/images/arc-banner.jpg") no-repeat center center;
+  background-size: cover;
+  height: 800px;
+  text-align: center; }
+  .jumbotron h1 {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 400px;
+    color: #96590f; }
+
+/*# sourceMappingURL=style.css.map */
