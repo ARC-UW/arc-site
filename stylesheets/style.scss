@@ -19,14 +19,18 @@ body {
 }
 
 .jumbotron {
-  background: url("../assets/images/arc-banner.jpg") no-repeat center center;
+  background: url("../assets/images/arc-banner-grey.jpeg") no-repeat center center;
   background-size: cover;
   height:800px;
   text-align: center;
-  h1 {
+  h2 {
     display: inline-block;
     vertical-align: middle;
-    line-height: 400px;
-    color: #6d4008;
+    line-height: normal;
+    color: #1c1c1c;
+    span {
+      color:#720303;
+      font-size: 50px;
+    }
   }
 }
