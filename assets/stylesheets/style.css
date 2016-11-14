@@ -11,13 +11,12 @@ body {
   border-radius: 0;
   margin-bottom: 0;
   font-size: 12px;
-  letter-spacing: 5px;
-  background-color: #000; }
+  letter-spacing: 5px; }
   .navbar .navbar-nav li a:hover, .navbar .navbar-brand {
     color: #aaa !important; }
 
 .jumbotron {
-  background: url("../assets/images/arc-banner-grey.jpeg") no-repeat center center;
+  background: url("../images/arc-banner-grey.jpeg") no-repeat center center;
   background-size: cover;
   height: 800px;
   text-align: center; }
@@ -29,5 +28,26 @@ body {
     .jumbotron h2 span {
       color: #720303;
       font-size: 50px; }
+
+#googleMap {
+  width: 100%;
+  /* Span the entire width of the screen */
+  height: 400px;
+  /* Set the height to 400 pixels */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+/* Add a dark background color to the footer */
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px; }
+
+footer a {
+  color: #f5f5f5; }
+
+footer a:hover {
+  color: #777;
+  text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */
