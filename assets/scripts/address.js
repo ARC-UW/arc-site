@@ -24,11 +24,11 @@ function initMap() {
 
     // Manually adjusted the marker and found the center
     // Should be a cleaner way to do this
-    google.maps.event.addListener(marker, 'dragend', function(){
+    google.maps.event.addListener(marker, 'dragend', function(evt){
         console.log('Marker dropped: Current Lat: ' + evt.latLng.lat().toFixed(10) + ' Current Lng: ' + evt.latLng.lng().toFixed(10));
     });
 
-    google.maps.event.addListener(marker, 'dragstart', function(){
+    google.maps.event.addListener(marker, 'dragstart', function(evt){
         console.log("Currently dragging marker...");
     });
 }
