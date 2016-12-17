@@ -1,7 +1,7 @@
 var map;
 
 function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
+    map = new google.maps.Map(document.getElementById("map"), {
         center: {
             lat: 47.6567,
             lng: -122.3152
@@ -20,15 +20,15 @@ function initMap() {
             lng: -122.3152107288
         }
     });
-    marker.addListener('click', toggleBounce);
+    marker.addListener("click", toggleBounce);
 
     // Manually adjusted the marker and found the center
     // Should be a cleaner way to do this
-    google.maps.event.addListener(marker, 'dragend', function(evt){
+    google.maps.event.addListener(marker, 'dragend', function(evt) {
         console.log('Marker dropped: Current Lat: ' + evt.latLng.lat().toFixed(10) + ' Current Lng: ' + evt.latLng.lng().toFixed(10));
     });
 
-    google.maps.event.addListener(marker, 'dragstart', function(evt){
+    google.maps.event.addListener(marker, 'dragstart', function(evt) {
         console.log("Currently dragging marker...");
     });
 }
